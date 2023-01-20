@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    display:grid;
+    height:100vh;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:90px 1fr 1fr 90px;
+    gap:10px;
+    padding:1px;
+    margin:1px;
+    background-color:rgb(245, 247, 239);
+}
+.one{
+background-color: red;
+grid-column:1/4;
+border-radius:10px;
+}
+.two{
+    background-color:orangered;
+    border-radius:10px;
+}
+.three{
+background-color:rgb(150, 150, 10);
+border-radius:10px;
+grid-column:1/3;
+grid-row:2/4;
+}
+.four{
+    background-color:#800080;
+    border-radius:9px;
+    grid-column:3/5;
+    grid-row:2/3;
+}
+.five{
+    background-color:purple;
+    grid-column:3/5;
+    grid-row:3/4;
+}
+.six{
+background-color: blue;
+grid-column:1/3;
+border-radius:10px;
+}
+.seven{
+    background-color:blue;
+    border-radius:10px;
+}
+.eight{
+    background-color:blue;
+    border-radius:10px;
+}
+</style>
+<body>
+   <div class="container">
+    <div class="one">
+    </div>
+    <div class="two">
+    </div>
+    <div class="three">
+    </div>
+    <div class="four">
+    </div>
+    <div class="five">
+    </div>
+    <div class="six">
+    </div>
+    <div class="seven">
+    </div>
+    <div class="eight">
+    </div>
+   </div> 
+</body>
+</html>
